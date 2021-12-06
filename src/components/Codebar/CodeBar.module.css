@@ -1,0 +1,40 @@
+.codebar {
+    width: 600px;
+    background:#272822;
+    position: relative;
+}
+.tab {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+    padding: 0px 15px;
+    gap:15px 20px;
+    border-bottom: 2px solid #333;
+}
+.item {
+   display: flex;
+   height: 50px; 
+   flex:1 1 auto;
+   justify-content: center;
+   align-items: center;
+   border-radius: 4px;
+   background: #333;
+   color:#fff;
+   text-transform: uppercase;
+   font-size: 15px;
+   font-weight: 600;
+   outline: none;
+   border: 1px solid #fff;
+}
+.activeTab{
+background: #c0a50e;
+}
+.tab_content {
+    background:#fff;
+    border:1px solid #000
+}
+.editor {
+    height:calc(100vh - 70px);
+    padding: 10px;
+}
